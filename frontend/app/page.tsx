@@ -15,9 +15,6 @@ export default function Home() {
           <Link component={NextLink} href="/catalog" color="inherit" underline="none" sx={{ mx: 2 }}>
             Catalog
           </Link>
-          <Link component={NextLink} href="/cart" color="inherit" underline="none" sx={{ mx: 2 }}>
-            Cart
-          </Link>
         </Toolbar>
       </AppBar>
       <Container maxWidth="md">

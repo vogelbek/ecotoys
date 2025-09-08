@@ -8,7 +8,8 @@ export default function CatalogPage() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch('http://localhost:4000/api/products')
+  const apiUrl = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:4000';
+  fetch(`${apiUrl}/api/products`)
       .then(res => res.json())
       .then(data => {
         setProducts(data);

@@ -1,0 +1,15 @@
+{
+  "navigationFallback": {
+    "rewrite": "/index.html"
+  },
+  "routes": [],
+  "globalHeaders": {},
+  "responseOverrides": {},
+  "platform": {
+    "apiRuntime": "",
+    "apiLocation": ""
+  },
+  "env": {
+    "NEXT_PUBLIC_API_URL": "https://ecotoys-gtftbweeete2bwgh.centralus-01.azurewebsites.net"
+  }
+}

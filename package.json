@@ -1,0 +1,26 @@
+{
+  "name": "ecotoys",
+  "version": "1.0.0",
+  "description": "A storefront for ecologically sensible children's toys, featuring: - Next.js frontend (`/frontend`) - Node.js/Express backend API (`/backend`) - A/B testing and ad analytics - Amazon logistics integration - AI agent for ad generation and tracking",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vogelbek/ecotoys.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/vogelbek/ecotoys/issues"
+  },
+  "homepage": "https://github.com/vogelbek/ecotoys#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0"
+  }
+}
